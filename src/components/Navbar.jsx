@@ -1,3 +1,4 @@
+//Navbar.jsx
 import React from 'react';  
 import { FaQuestion } from "react-icons/fa";   
 import { FaUserCircle } from "react-icons/fa";  

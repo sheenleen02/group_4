@@ -9,8 +9,9 @@ const Section2 = () => {
 <div className="flex w-full h-auto ">  
         <img src={image2} alt="Description" className="" />  
       </div>  
-    <div>  
-            ,uiwquiqwuiqcsuilqewuigqeg78qsiulgeseqiuglesZX89EXDZezed9se89ues9ohwsiudiuwzgudigwidgiwgdi  il
+    <div className='text-center mt-[100px] text-bold text-2xl text-blue-400'>  
+    "Unlock the full potential of your business with a stunning storefront—where your products shine, 
+    your brand thrives, and customers can't resist coming back for more!
      
     </div>  
 
