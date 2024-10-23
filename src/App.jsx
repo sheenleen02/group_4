@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Land from './pages/Land';   
+import Land from './Pages/Land';   
 import Dashboard from './Pages/Dashboard'; 
 import Product from './components/Product';  
 import Notification from './components/Notification';  
