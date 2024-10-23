@@ -11,7 +11,7 @@ import Demography from './components/Demography';
 import DashboardHome from './components/DashboardHome';
 import TransactionTable from './components/TransactionTable';
 import Profile from './components/Profile';
-import MainLayout from './components/MainLayout';
+import MainLayout from './components/Mainlayout';
 import SignupForm from './components/SignupForm';
 import Footer from './components/footer';
 
