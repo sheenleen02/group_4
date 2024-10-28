@@ -38,7 +38,8 @@ const Land = () => {
   }, []);  
 
   return (  
-    <div className='overflow-hidden'>  
+    <div className='overflow-hidden  '>
+          
       <Section1 />
       <div ref={ref} className="" style={{ margin: " 0" }}>  
           {isVisible && (  
@@ -48,8 +49,10 @@ const Land = () => {
                   transition={{ duration: 2}} // Animation duration  
               >  
                   {/* You can add content here if needed */}  
-                  
+                  <div className=''>
+
                   <Section2 />     
+                  </div>
                   
               </motion.div>  
           )}  
