@@ -117,7 +117,7 @@ const Profile = ({ onProfileUpdate }) => {
           <img 
             src={profile.profilePicture} 
             alt="Profile" 
-            className="w-32 h-32 rounded-full mb-4 object-cover" 
+            className="w-32 h-32 rounded-full mb-4 object-cover bg-gray-400" 
           />
           <label className="block">
             <input 

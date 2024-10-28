@@ -24,7 +24,7 @@ const Dashboard = () => {
   };
 
   return (
-    <section className="flex bg-gray-100 min-h-screen">
+    <section className="flex bg-gray-100 ">
       {/* Sidebar */}
       <div className={`fixed md:static transition-all duration-300 ease-in-out ${sidebarOpen ? "left-0" : "-left-64"} w-64 bg-white shadow-lg rounded-lg p-6`}>
         <Link to='/dashboard' onClick={handleLinkClick}>

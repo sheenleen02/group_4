@@ -15,6 +15,9 @@ import MainLayout from './components/Mainlayout';
 import SignupForm from './components/SignupForm';
 import Footer from './components/footer';
 import Support from './components/Support';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Features from './Pages/Features';
 
 const App = () => {  
   const [profilePicture, setProfilePicture] = useState('default-avatar.jpg');
@@ -32,6 +35,9 @@ const App = () => {
           <Route path="/" element={<Land />} />   
           <Route path="/signupform" element={<SignupForm />} /> 
           <Route path="/support" element={<Support />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/features" element={<Features />} />
           {/* Dashboard and its sub-routes */}
           <Route path="/dashboard" element={<Dashboard />}>  
             <Route index element={<DashboardHome />} />
@@ -44,7 +50,6 @@ const App = () => {
             <Route path="demography" element={<Demography />} />  
           </Route>  
         </Routes>  
-      
       </MainLayout>
       <Footer />
     </Router>  
@@ -52,4 +57,3 @@ const App = () => {
 };  
 
 export default App;
-
